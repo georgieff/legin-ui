@@ -1,0 +1,195 @@
+body {
+    color: #E8E8E8;
+    padding-top: 60px;
+    text-decoration: none;
+    background: url('../img/bg3.png') center;
+}
+
+#friends {
+    background: #eee;
+}
+
+#profile {
+    background: #333333;
+    background: url('../img/profile_header1.jpg') center;
+    height: 300px;
+    color: #E8E8E8;
+    margin-bottom: 20px;
+}
+
+#profile-info {
+    display: inline-block;
+    margin: 70px auto;
+    position: relative;
+}
+
+#profile figure {
+    display: inline-block;
+    margin: 0;
+}
+
+#profile figure img {
+    border: 10px solid rgba(50,50,50,0.5);
+
+    -webkit-box-shadow: 0px 0px 15px 1px #111;
+    box-shadow: 0px 0px 15px 1px #111;
+    width: 128px;
+    height: 128px;
+}
+
+.glass-borders {
+    border: 10px solid rgba(50,50,50,0.5);
+    -webkit-box-shadow: 0px 0px 15px 1px #111;
+    box-shadow: 0px 0px 15px 1px #111;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.border-box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.glass {
+    display: inline-block;
+    color: #E8E8E8;
+    text-shadow: 1px 1px 1px #111;
+    padding: 10px 15px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    background: rgba(50,50,50,0.5);
+    -webkit-box-shadow: 0px 0px 15px 1px #111;
+    box-shadow: 0px 0px 15px 1px #111;
+}
+
+#profile-fname,#profile-lname,#profile-prof,#profile-legin-days,#profile-legins,#profile-friend {
+    position: absolute;
+    top: 0px;
+    right: 158px;
+    font-size: 24px;
+    text-align: right;
+}
+
+#profile-lname {
+    top: 55px;
+}
+
+#profile-prof, #profile-friend {
+    top: 108px;
+    width: 175px;
+    color: #C8C8C8;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#profile-legin-days,#profile-legins, #profile-friend {
+    right: auto;
+    left: 158px;
+    width: 175px;
+    text-align: left;
+}
+
+#profile-legins {
+    top: 55px;
+    width: 130px;
+}
+#profile-friend{
+    cursor:pointer;
+    width: 165px;
+}
+#profile-friend:hover{
+    padding-left:30px
+}
+
+#friends {
+    background: #333333;
+    background: url('../img/profile_header1.jpg') center;
+    height: 140px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+#friends a:hover figcaption {
+    top: 60px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1.0;
+}
+
+#friends figure {
+    display: inline-block;
+    margin: 15px 0 0 15px;
+    position: relative;
+}
+
+#friends figure img {
+    width: 90px;
+    border: none;
+}
+
+#friends figure figcaption {
+    left: 0;
+    top: 120px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0.0;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#see-more-friends {
+    font-size: 20px;
+    height: 90px;
+    letter-spacing: 40px;
+    line-height: 18px;
+    margin: 15px 0 0 15px;
+    position: absolute;
+    right: 0;
+    width: 35px;
+    cursor: pointer;
+}
+
+#see-more-friends:hover {
+    width: 45px;
+}
+/* 
+    Leg In container
+    Date container
+*/
+.legins-container,
+.date-container{
+    background: #333333;
+    background: url('../img/profile_header1.jpg') center;
+}
+
+
+#footer {
+    height: 60px;
+    background-color: #202020;
+}
+
+.transition {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
